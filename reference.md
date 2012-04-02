@@ -6,7 +6,7 @@ layout: default
 
 # Reference #
 
-This page provides a slightly more in-depth guide to these templates (as well as a usage example)
+This page provides a slightly more in-depth guide to these templates (as well as being a usage example)
 
 ## Overview ##
 
