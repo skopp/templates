@@ -15,14 +15,12 @@ permalink: pretty
 
 # Tree Layout #
 
-<pre>
-.
-|-- _config.yml
-|-- _includes
-|-- _layouts
-|   \- default.html
-\-- README.md
-\-- reference.md
-</pre>
+* _includes
+    * sidebar.html
+* _layouts
+    * default.html
+* _config.yml
+* README.md
+* reference.md
 
 [jk]: http://github.com/mojombo/jekyll/
