@@ -41,7 +41,7 @@
     <div class="container-fluid" id="container">
         <div class="row-fluid">
             <div class="span2">
-                {% capture sidebar %}{% include sidebar.md %}{% endcapture %}
+                {% capture sidebar %}{% include sidebar.html %}{% endcapture %}
 {{ sidebar | markdownify }}
             </div>
             <div class="span10">
