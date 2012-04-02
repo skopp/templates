@@ -1,6 +1,5 @@
 ---
 title: Open Source at sapo - templates
-category: docs
 permalink: index.html
 layout: default
 ---
