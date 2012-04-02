@@ -1,10 +1,14 @@
 ---
-title: Open Source at sapo - template documentation
+title: Open Source at sapo - template reference
 permalink: reference.html
 layout: default
 ---
 
-# Overview #
+# Reference #
+
+This page provides a slightly more in-depth guide to these templates (as well as a usage example)
+
+## Overview ##
 
 The template repository is organized as a standard [Jekyll][jk] deployment, with a `_config.yml` file that enables Pygments syntax highlighting and pretty urls as such:
 
@@ -13,7 +17,9 @@ pygments: true
 permalink: pretty
 {% endhighlight %}
 
-# Tree Layout #
+## Tree Layout ##
+
+This is the default filesystem layout you get when you clone the `gh-pages` branch from this repository:
 
 <pre>
 _includes
