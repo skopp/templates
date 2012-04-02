@@ -2,7 +2,7 @@
 title: Open Source at sapo - templates
 category: docs
 permalink: index.html
-layout: default.html
+layout: default
 ---
 
 This repository hosts the Jekyll templates shared by sapo sites on Github.
