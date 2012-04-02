@@ -33,9 +33,6 @@
           <a class="brand" href="http://oss.sapo.pt/"><img src="/img/sapo30.png" style="height: 30px; width: 37px; margin-bottom: -0.4em; margin-top: -0.5em;"> Open Source at <span class="podium">sapo</span></a>
           <div class="nav-collapse">
               <ul id="mainnav" class="nav"></ul>
-              <ul class="nav pull-right">
-                  <li><a href="/about.html" template="article">About</a></li>
-              </ul>
           </div>
         </div>
       </div>
@@ -44,7 +41,7 @@
     <div class="container-fluid" id="container">
         <div class="row-fluid">
             <div class="span2">
-                {% capture sidebar %}{% include sidebar.markdown %}{% endcapture %}
+                {% capture sidebar %}{% include sidebar.md %}{% endcapture %}
 {{ sidebar | markdownify }}
             </div>
             <div class="span10">
