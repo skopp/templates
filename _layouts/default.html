@@ -6,6 +6,7 @@
 <title>{{ page.title }}</title>
 <meta name="description" content="sapo.pt's Open Source web site" />
 <meta name="author" content="Rui Carmo" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- HTML5 shim, for IE6-8 support of HTML elements -->
 <!--[if lt IE 9]>
       <script src="/js/html5.js"></script>
@@ -21,7 +22,6 @@
 <script type="text/javascript" src="/js/bundle-jekyll-min.js"></script>
 </head>
   <body>
-
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -41,9 +41,15 @@
       </div>
     </div>
 
-    <div class="container" id="container">
-        <div class="row">
-        {{ content }}
+    <div class="container-fluid" id="container">
+        <div class="row-fluid">
+            <div class="span2">
+                {% capture sidebar %}{% include sidebar.markdown %}{% endcapture %}
+{{ sidebar | markdownify }}
+            </div>
+            <div class="span10">
+                {{ content }}
+            </div>
         </div>
     </div>
 
